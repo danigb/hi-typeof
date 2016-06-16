@@ -16,6 +16,11 @@ isNum('16') // => false
 
 var isFn = is('function')
 isFn(isFn) // => true
+
+// Create inverse test
+var isDef = is('undefined', false)
+isDef(isDef) // => true
+isDef(isDef.currentTime) // => false
 ```
 
 Basically, it's a function I use a lot and just makes the code clear and concise. It does not add any extra functionallity to the `typeof` operator.
