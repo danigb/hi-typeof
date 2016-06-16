@@ -1,4 +1,6 @@
-# hi-typeof
+# hi-typeof [![npm](https://img.shields.io/npm/v/hi-typeof.svg?style=flat-square)](https://www.npmjs.com/package/hi-typeof)
+
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard) [![license](https://img.shields.io/npm/l/hi-typeof.svg?style=flat-square)](https://www.npmjs.com/package/hi-typeof)
 
 Some sugar to the javascript `typeof` operator. Generate isStr, isNum and other typeof functions.
 
