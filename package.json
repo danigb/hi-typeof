@@ -1,0 +1,26 @@
+{
+  "name": "hi-typeof",
+  "version": "1.0.0",
+  "description": "A shortcut to typeof",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/hi-typeof.git"
+  },
+  "keywords": [
+    "typeof"
+  ],
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/hi-typeof/issues"
+  },
+  "homepage": "https://github.com/danigb/hi-typeof#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
